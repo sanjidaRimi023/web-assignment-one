@@ -1,33 +1,39 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 header{
     max-width: 1280px;
     margin: 0 auto;
 }
 /* font */
-.work-sans-fonts {
-  font-family: "Work Sans", serif;
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
-}
 .navbar{
     display: flex;
-    justify-content: space-around;
+    gap:870px;
+    justify-content:center;
     padding: 24px;
-    font-family: Fira Sans;
+}
+.nav-title{
+    font-size: 32px;
+    font-weight: 700;
+    width: 350px;
+    height: 38px;
 }
 .btn{
     padding: 5px;
     background-color: white;
-    border: 2px solid #006A50 ;
+    border: 1px solid #006A50 ;
     border-radius: 5px;
-    padding: 15p 30px;
+    /* padding: 15px 30px; */
     color: #006A50;
-    font-weight: 300px;
+    font-weight: 700;
     font-size: 18px;
+    width: 116px;
+    height: 52px;
 }
 /* banner section */
 .banner{
@@ -45,11 +51,13 @@ header{
     
 }
 .banner-content{
+    margin-top: 16px;
     font-size: 56px;
     font-weight: bold;
     color: black;
 }
 .banner-button{
+    margin-top: 24px;
     padding: 10px;
     background-color: #006A50;
     color: #FFFFFF;
@@ -80,13 +88,12 @@ main{
     
 }
 .pillar{
-    box-shadow: 0px 4px 4px 0px rgba(14, 14, 14, 0.15);
-    border: 1px solid #FFFFFF;
-    border-radius: 15px;
+    border:1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
     padding: 24px;
-    gap: 24px;
-    border: 2px solid rgba(255, 255, 255, 1);
+
 }
+    
 .pillar-head{
     color: #0E0E0E;
     font-weight: bold;
@@ -119,6 +126,7 @@ main{
     margin-top: 32px;
     margin-bottom: 32px;
     gap: 24px;
+
     
 }
 .vision-box-1{
@@ -138,19 +146,52 @@ main{
 }
 .sub-title{
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 700;
 }
 .description{
     color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 400;
 }
-.vision-btn-1{
-    color: rgba(84, 144, 245, 1);
-    padding: 20px;
+
+.vision-btn{
+    color: rgba(255, 255, 255, 1);
+    padding: 11px;
     border-radius: 8px;
     font-weight: 600px;
     font-size: 16px;
-    /* background-color: rgba(84, 144, 245, 1); */
+    border: none; 
+}
+.vision-btn-1{
+    background-color: rgba(84, 144, 245, 1);  
+}
 
+.vision-btn-2{
+    background: rgb(9, 161, 92);;
+}
+.vision-btn-3{
+    background-color: rgb(255, 194, 57);
+}
+/* challenges section */
+.challenges{
+    margin-bottom: 80px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 24px 48px 24px 48px;
+}
+.challenge-body{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.8);
+}
+.challenge-name{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+}
+.challenge-name-title{
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
 }
