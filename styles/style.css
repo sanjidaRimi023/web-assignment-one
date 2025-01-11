@@ -5,6 +5,10 @@
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
+    
+}
+body{
+    background-color: whitesmoke;
 }
 header{
     max-width: 1280px;
@@ -173,25 +177,324 @@ main{
     background-color: rgb(255, 194, 57);
 }
 /* challenges section */
-.challenges{
-    margin-bottom: 80px;
-    background-color: rgb(255, 255, 255);
+.challenge-section{
+    width: 1280px;
+    height: 256px;
+    margin-top: 32px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
-    padding: 24px 48px 24px 48px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 80px;
 }
-.challenge-body{
+.challenge{
+    padding: 48px 24px ;
     font-size: 16px;
-    font-weight: 400;
-    color: rgba(14, 14, 14, 0.8);
+    font-weight: 400px;
+    text-align: justify;
+    position: relative;
 }
 .challenge-name{
-    color: rgba(14, 14, 14, 0.8);
-    font-size: 20px;
-    font-weight: 600;
+   
+    margin: 12px 0px;
+    
+}
+.challenge-bg{
+    width: 100px;
+    height: 100px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 20px;
+}
+.challenge-title{
+    margin: 0px 24px;
 }
 .challenge-name-title{
-    color: rgba(14, 14, 14, 0.6);
+ color: rgba(14, 14, 14, 0.6);
+}
+/* opinion section */
+.opinion-title{
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.opinion-table{
+    margin-top: 24px;
+    width: 1280px;
+    height: 409px;
+    margin: 0 160px 0 160px;
+    border-radius: 16px;
+}
+
+.op-table ,tr,td{
+    padding: 32px;
+    border-collapse: collapse;
+    border: 1px solid rgba(14, 14, 14, 0.15);  
+}
+td{
+    font-weight: 600;
+}
+.title-01{
+    width: 969px;
+    text-align: start;
+    padding: ;
+    
+}
+th{
+    background: rgb(198, 228, 214);
+    width: 200px;
+    height: 72px;
+    padding: 32px;
+
+}
+.table-bg{
+    margin-top: 24px;
+    padding: 32px;
+    border-radius: 16px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+
+
+}
+.given-ans{
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+    width: 152px;
+    height: 44px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* Recent-section */
+.recent-title{
+    margin-top: 80px;
+    margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.recent-sub-title{
+    color: rgba(14, 14, 14, 0.7);
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 32px;
+
+}
+
+.recent-box{
+    display: flex;
+    justify-content: space-around;
+    height: 420px;
+    margin: 24px 0;
+    padding: 48px;
+    background: rgb(255, 255, 255);
+    border: 1px solid gray;
+    border-radius: 24px;
+    align-items: center;
+    text-align: justify;
+    gap: 40px;
+} 
+.box-head{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.box-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.box-time{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;           
+}
+.box-btn{
+    color: rgb(255, 255, 255);
+    border: 1px solid gray;
+    border: none;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    padding: 13px 26px 13px 26px;
+}
+
+/*         <!-- donate today section --> */
+
+.donate-today-section{
+    margin-top: 80px;
+    align-items: center;
+}
+.donate-today{
+    text-align: center;
+}
+.money-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.donate-today-title{
+    font-size: 40px;
+    font-weight: 700px;
+
+}
+.donate-contant{
+    margin-top: 24px;
+}
+.money-box{
+    margin-top: 32px;
+    width: 1280px;
+    height: 128px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.money-amount{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 40px;
+    justify-content: center;
+    border-radius: 18px;
+}
+.font-size{
+    font-size: 40px;
+    font-weight: 700px;
+}
+.money-amount2{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(198, 228, 214);
+    text-align: center;
+    padding: 40px;
+    justify-content: center;
+    border-radius: 18px;
+}
+.input-field{
+    margin-top: 32px;
+    width: 1032px;
+    height: 64px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    border: none;
+}
+.donate-btns{
+    margin:32px 0px 80px 0;
+}
+.donate-btn{
+    width: 170px;
+    height: 56px;
+    padding: 0 34px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    border: none;
+}
+
+.newslatter-section{
+    width: 1280px;
+    height: 395px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+.subscribe-content{
+    align-items: center;
+    text-align: center;
+    padding: 80px 200px;
+    width: 950px;
+    height: 235px;
+}
+.subscribe-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.newslatter-txt{
+    margin: 16px 0 24px 0;
+
+}
+.input-mail{
+    width: 600px;
+    height: 55px;
+    position: relative;
+    left: -30px;
+    padding: 0 40px;
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+}
+.latter-btn{
+    width: 100px;
+    height: 55px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 1200px;
+    border-left: none;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+}
+.news-contents{
+    margin-top:24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+
+
+/* footer sesction */
+
+
+.foot-section{
+    margin-top: 80px;
+    width: 1280px;
+    margin-left: 260px;
+    padding: 0 160px;
+    text-align: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.26)
+}
+.footer-title{
+    padding: 50px 160px;
+    font-size: 32px;
+    font-weight: 700;
+    width: 689px;
+}
+.footer-content{
+    align-items: center;
+    text-align: center;
+}
+.footer-img{
+    width: 25px;
+    margin-top: 32.5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 420px;
+    gap: 23px;
+}
+
+hr{
+    width: 1122px;
+}
+
+
+.donate-btn:hover{
+    background-color: greenyellow;
+
+}
+.money-amount:hover{
+    background-color: greenyellow;
+
+}
+.unicq-btn:hover{
+    background-color: greenyellow;
+    color: #000;
+    font-weight: 700;
+}
+.money-amount2:hover{
+    background-color: greenyellow;
 }
